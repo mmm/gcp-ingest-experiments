@@ -4,9 +4,6 @@ Here's a basic serverless ingestion pipeline
 
     Run -> PubSub -> DataFlow -> GCS -> BQ
 
-do we actually _need_ k8s for anything serverless?
-maybe to back up Run services?
-
 
 ## Layers
 
