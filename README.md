@@ -2,7 +2,11 @@
 
 Here's a basic serverless ingestion pipeline
 
-    Run -> PubSub -> DataFlow -> GCS -> BQ
+    Run -> PubSub -> 
+	-> DataFlow -> BQ
+	-> DataFlow -> FireStore/Elastic
+	-> DataFlow -> API (Salesforce)
+	
 
 
 ## Layers
